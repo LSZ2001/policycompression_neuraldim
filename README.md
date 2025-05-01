@@ -1,11 +1,10 @@
 # policycompression_neuraldim
- Code for the manuscript "Neural and behavioral signatures of policy compression in cognitive control". The authors are Shuze Liu, Atsushi Kikumoto, David Badre, and Samuel J. Gershman. 
+ Code for the manuscript "Neural and behavioral signatures of policy compression in cognitive control". The authors are Shuze Liu, Atsushi Kikumoto, David Badre, and Samuel J. Gershman. The behavioral and EEG dataset analyzed is https://neurodata.riken.jp/id/20240831-001. 
 
 - **Bold** words are .m filenames.
 - *Italicized* words are .mat or .tex filenames or directory folder names.
 
 The code runs on Matlab R2023a.
-
 
 ## Main folder
 - **manuscript_figures.m** creates all figures for the manuscript, based on the saved behavioral and EEG dimensionality files.
@@ -18,9 +17,12 @@ The code runs on Matlab R2023a.
 
 ### *EEG_paper_analysis* subfolder
 #### *Dimension* subsubfolder
-- It contains raw decoding files **A304_DIM_READOUT_RL_B_pred_DIM.h5** and similarly named files for other participants (304 is one of the participant's ID). These files are too large to be kept in this Github repository, and could be found at https://neurodata.riken.jp/id/20240831-001. 
+- It contains raw decoding files **A304_DIM_READOUT_RL_B_pred_DIM.h5** and similarly named files for other participants (304 is one of the participants' ID). These files are too large to be kept in this Github repository, and could be found at https://neurodata.riken.jp/id/20240831-001. 
 #### *new_dimensionality_files* subsubfolder
 - It contains processed files **A304_DIM_READOUT_RL_processed.txt** and similarly named files for other participants, to be used by **manuscript_figures.m**.
 
 ### *figs* subfolder
 - It contains saved figures.
+
+### *utils* subfolder
+- It contains helper functions to run policy compression and dimensionality analyses.

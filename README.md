@@ -4,6 +4,13 @@
 - **Bold** words are .m filenames.
 - *Italicized* words are .mat or .tex filenames or directory folder names.
 
+All code assumes that the current directory of Matlab is the main folder. Hence, do the following before running any code:
+```
+# The variable main_folder contains the path to the main folder on your computer
+cd(main_folder)
+addpath(genpath(main_folder))
+```
+
 The code runs on Matlab R2023a.
 
 ## Main folder

@@ -1,5 +1,7 @@
 # policycompression_neuraldim
- Code for the manuscript "Neural and behavioral signatures of policy compression in cognitive control". The authors are Shuze Liu, Atsushi Kikumoto, David Badre, and Samuel J. Gershman. The behavioral and EEG dataset analyzed is https://neurodata.riken.jp/id/20240831-001. 
+ Code for the manuscript "Neural and behavioral signatures of policy compression in cognitive control". The authors are Shuze Liu, Atsushi Kikumoto, David Badre, and Samuel J. Gershman. 
+ 
+ The behavioral and EEG dataset analyzed is https://neurodata.riken.jp/id/20240831-001. 
 
 - **Bold** words are .m filenames.
 - *Italicized* words are .mat, .tex, .h5 filenames, or directory folder names.

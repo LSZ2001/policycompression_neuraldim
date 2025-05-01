@@ -1,7 +1,7 @@
 clear all; close all; clc;
-base_folder = 'C:/Users/liu_s/policycompression_neuraldim';
-cd(base_folder)
-addpath(genpath(base_folder))
+% base_folder = 'C:/Users/liu_s/policycompression_neuraldim';
+% cd(base_folder)
+% addpath(genpath(base_folder))
 
 
 % Figure and font default setting

@@ -122,7 +122,7 @@ for subj=1:n_subj
         state = (T_subjcond.TASK-1).*n_stims + T_subjcond.STIMPOS; % This treats each rule + stimulus as one state. Hence 12 distinct states.
         action = T_subjcond.RESP;
         idx=idx+1;
-        complexity(idx)=mutual_information(round(state),round(action),0.1)./log(2);
+        complexity(idx)=mutual_information(round(state),round(action),0.01)./log(2);
         cond_entropy(idx) = condEntropy(round(action), round(state));
         repeat_actions(idx) = mean(action(2:end)==action(1:(end-1)));
 
